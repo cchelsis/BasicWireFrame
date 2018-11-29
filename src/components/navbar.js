@@ -5,23 +5,23 @@
 import React from 'react'
 export const NavLinksLeft = (props) => {
     return (
-        <div>
-        <div>
-            <a href="">LinkLeft1</a>
+        <div className='navlinksleft'>
+            <div>
+                <a href="">LinkLeft1</a>
+            </div>
+            <div>
+                <a href="">LinkLeft2</a>
+            </div>
+            <div>
+                <a href="">LinkLeft3</a>
+            </div>
         </div>
-        <div>
-            <a href="">LinkLeft2</a>
-        </div>
-        <div>
-            <a href="">LinkLeft3</a>
-        </div>
-    </div>
     );
 };
 
 export const NavLinksRight = (props) => {
     return (
-        <div>
+        <div className='navlinksright'>
             <div>
                 <a href="">LinkRight1</a>
             </div>
@@ -32,10 +32,4 @@ export const NavLinksRight = (props) => {
     );
 }
 
-export const Logo = (props) => {
-    return (
-        <div>
-            {/* <img src={"./static/images/Sakura(5).jpg"} alt="" className="Logo"></img>  */}
-        </div>
-    );
-};
+

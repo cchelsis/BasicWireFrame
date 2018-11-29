@@ -1,3 +1,178 @@
+
+.app {
+
+    background-color: black;
+    height: 75px;
+    width: 100em;
+    box-shadow: 4px 17px 23px -13px rgba(0,0,0,0.36);
+    
+
+    img {
+        display: flex;
+        margin-left: 25px;
+        position: absolute;
+       
+        border-radius: 50%;  
+        height: 90px;
+        width: 90px;
+    }
+    .navlinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+        
+        .navlinksleft{
+            display: flex;
+            justify-content: center;
+
+            a {
+                color: white;
+                font-family: 'Roboto', sans-serif;
+                font-size: 20px;
+                padding: 30px;
+            }
+    
+        }
+
+        h1 {
+            color: lightgray;
+            font-family: 'Fredericka the Great', cursive;
+            font-size: 40px;
+            margin-right: 65px;
+            margin-top: 10px;
+            align-content: center;
+        }
+
+//new font
+        .navlinksright {
+        display: flex;
+            a {
+                color: white;
+                font-family: 'Roboto', sans-serif;
+                font-size: 20px;
+                padding: 30px;
+                
+            }
+        }
+    }
+    
+}
+.profilepic img {
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        padding: 30px;
+        margin-left: 100px;
+        
+        border-radius: 50%;
+        height: 350px;
+        width: 350px;
+    }
+
+.aboutpage {
+    
+    background-color: rgb(228, 180, 180);
+    height: 200px;
+    width: 650px;
+    margin-top: 75px;
+    margin-left: 550px;
+    border-radius: 20px;
+    box-shadow: 4px 2px 58px -1px rgba(0,0,0,0.75);
+    
+
+    h3 {
+        display: flex;
+        justify-content: center;
+        padding: 9px;
+        font-family: 'Fredericka the Great', cursive;
+        font-size: 34px;
+        
+        
+        
+    }
+    .contactbutton button {
+        
+        display: flex;
+        justify-content: center;
+        margin-top: 4px;
+        margin-left: 285px;
+        border-radius: 5px;
+        font-family: 'Arimo', sans-serif;
+        position: absolute;
+        
+    }
+    .contactbutton button:hover {
+            color: pink;
+        }
+}
+.footer {
+
+    background-color: black;
+    height: 125px;
+    width: 100em;
+    margin-top: 100px;
+
+    
+   .footer-container {
+       display: flex;
+       justify-content: space-between;
+       align-content: center;
+       padding: 20px;
+       height:100px;
+       width: 100vw;
+       
+       .footerleft {
+           display: flex;
+           justify-content: space-between;
+
+           a {
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            padding: 30px;
+            }
+       }
+       .footerright {
+            display: flex;
+            justify-content: space-between;
+
+            a {
+                color: white;
+                font-family: 'Roboto', sans-serif;
+                font-size: 20px;
+                padding: 30px;
+            }
+       }
+       
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Below is the Default HTML
+
 // html {
 //     font-size: 62.5%; // 1rem is 10px
 // }

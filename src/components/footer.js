@@ -5,19 +5,19 @@ import React from 'react'
 
 export const FooterLinkLeft = (props) => {
     return (
-        <div>
-            <div>
-                <a href="">FooterLeft1</a>
-            </div>
-            <div>
-                <a href="">FooterLeft2</a>
-            </div>
-            <div>
-                <a href="">FooterLeft3</a>
-            </div>
-            <div>
-                <a href="">FooterLeft4</a>
-            </div>
+        <div className='footerleft'>
+            
+            <a href="">FooterLeft1</a>
+        
+        
+            <a href="">FooterLeft2</a>
+        
+        
+            <a href="">FooterLeft3</a>
+        
+        
+            <a href="">FooterLeft4</a>
+        
         </div>
     );
 };
@@ -25,19 +25,19 @@ export const FooterLinkLeft = (props) => {
 
 export const FooterLinkRight = (props) => {
     return (
-        <div >
-            <div>
-                <a href="">Footerright1</a>
-            </div>
-            <div>
-                <a href="">Footerright2</a>
-            </div>
-            <div>
-                <a href="">Footerright3</a>
-            </div>
-            <div>
-                <a href="">Footerright4</a>
-            </div>
+        
+        <div className='footerright'>
+            <a href="">Footerright1</a>
+            
+            
+            <a href="">Footerright2</a>
+        
+        
+            <a href="">Footerright3</a>
+       
+        
+            <a href="">Footerright4</a>
+
         </div>
     );
 };
